@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    @media only screen and (min-width: 500px) {
+      body {
+        background-color:white;
+      }
+
+      div {
+        text-align: center;
+      }
+
+      #primero,
+      #segundo,
+      #tercero {
+        border: 2px solid white;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: sans-serif;
+      }
+    }
+
+    @media only screen and (max-width:800px) {
+
+      /* para tablets: */
+      body {
+        background-color: #573416;
+      }
+
+      #primero,
+      #segundo,
+      #tercero {
+        display: inline-block;
+        margin: 2px;
+        width: 100%;
+        padding: 0;
+        background: #F4F6F6;
+        border: 2px solid black;
+        font-family: Impact,Arial, Helvetica, sans-serif;
+      }
+    }
+
+    @media screen and (min-width: 1025px) {
+
+      #primero,
+      #segundo,
+      #tercero {
+        display: inline-block;
+        background-color: #948999;
+        width: 50%;
+        border-radius: 5px;
+        border: 2px solid black;
+        margin: 2px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      .menu {
+        width: 30px;
+        font-size:20px ;
+        text-align: center;
+        border: 1px solid black;
+        background-color: #17202A;
+        color: white;
+      }
+
+      body {
+        background: gainsboro;
+        background-image: url(https://as2.ftcdn.net/jpg/02/15/12/33/500_F_215123311_kYcKJcgTfm4UrsdiCoiePBTqtyuMQSf1.jpg);
+      }
+
+      #segundo {
+        float: left;
+      }
+
+      .right {
+        background-color: #EC7063;
+        font-size: 20px;
+        font-family: Impact, sans-serif;
+      }
+    }
+  </style>
+  
+</head>
+
+<body>
+  <a id="principal"></a>
+  <div id="inicio" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;overflow:auto">
+
+    <p class="header">
+    <p style="background:#CD6155; width:100%;font-family: 'Times New Roman', Times, serif; font-size: 50px;"
+      align="center">tarea4.4</p>
+    </p>
+    <hr>
+    <p class="centros">
+      <a href="#primero" class="menu">primero</a>
+      <a href="#segundo" class="menu">segundo</a>
+      <a href="#tercero" class="menu">tercero</a>
+      <a href="#cuarto" class="menu">cuarto</a>
+    </p> <br>
+    <p class="main" class="right">
+    <p>tarea4.4 viernes 28 de agosto</p>
+    <p align="center">
+      <img
+        src="https://pm1.narvii.com/6109/9b9f6590aa90a9036816e3fe04ebf803e1c2f1ad_hq.jpg"
+        style="max-width:40%;height:auto;">
+    </p>
+    </p>
+    <p class="right">
+    <h2 class="right">parte 2</h2>
+    <p class="right">- ejemplo 1<br>
+     
+    </p>
+
+    <div id="primero" class="col1">
+      <h2>ejemplo de ir</h2>
+      <p>
+      <p>
+       click en segundo a id segundo
+      </p>
+      <img src="https://i.pinimg.com/originals/ca/a5/80/caa5800363ec6e5c583498f82f4c1459.jpg" title="ok" width="40%">
+      </p>
+      <p>contenido del segundo</p>
+      <p><a href="#principal">Ir arriba</a></p>
+    </div>
+    <div id="segundo" >
+      <h2>ejemplo de ir de segundo</h2>
+      <p class="col1">
+      
+      </p>
+      <img src="https://pm1.narvii.com/6274/dcb32de64c6a40136c266b5468972bc7343ba68c_hq.jpg"
+        alt="ejemplo2" width="40%" title="oktambien">
+    
+      <p>
+        
+        contenido del tercero</p>
+      </p>
+      <p><a href="#principal">Ir arriba</a></p>
+    </div>
+    <div id="tercero" class="col1" >
+      <h2>ejemplos del tercero</h2>
+      <p>
+      <p>contenido de nuevo</p>
+      <img src="https://toppng.com/uploads/preview/kawaii-kawaiianime-anime-girl-animegirl-animekawaii-menhera-chan-ok-1156328445749rjgc7qz0.png"
+        alt="todo bien" width="40%" height="auto">
+      </p>
+      <p>
+      contenido del tercero
+      </p>
+      <p><a href="#principal">Ir arriba</a></p>
+    </div>
+    <div style="background-color:#F5EEF8;text-align:center;padding:10px;margin-top:7px;font-size:12px;" id="cuarto">
+      <p>para mas info del 4to</p>
+      <p>contendio de la parte cuatro</p>
+      <p><a href="#principal">Ir arriba</a></p>
+
+    </div>
+  </div>
+</body>
+
+</html>
