@@ -41,9 +41,10 @@ p {
 @media (min-width: 1201px) and (max-width: 1400px) {
   .col-lg-3 {
     float: left;
-    border: 1px solid whitesmoke
-    background-image:url(https://image.freepik.com/vector-gratis/fondo-pantalla-placa-circuito-neon_23-2148333271.jpg);
-    padding:3px;
+    border: 1px solid whitesmoke;
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-pantalla-placa-circuito-neon_23-2148333271.jpg);
+    
+    padding: 3px;
     width: 45%;
   }
   .col8 {
@@ -64,7 +65,7 @@ p {
 @media (min-width: 996px) and (max-width: 1200px) {
   .col6 {
     float: inline-end;
-    border: 1px solid whitesmoke
+    border: 1px solid whitesmoke;
     border-radius: 0px;
     width:60%;
     display:block;
